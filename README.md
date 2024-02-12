@@ -1,49 +1,16 @@
-# Olá! Sou o Vinicius 👋
-
-- 💻 Trabalho como Red Team, Analista de Dados e Engenharia Reversa.
-- 📈 Estudante de Ciência de Dados
-- 🚩 CTF Player
-- ⚙️ Criador do Gimme Lovë
   
 ```
-#include <iostream>
-#include <vector>
+uname -a
+Gimmelovë UBUNTU 5.19.0-45-generic #46~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jun 7 15:06:04 UTC 20 x86_64 x86_64 x86_64 GNU/Linux
 
-void habilidades() {
-    std::vector<std::string> qualificacoes = {"Resolução de Problemas", "Comunicação Clara", "Aprendizado Contínuo", "Colaboração Efetiva", "Pensamento Analítico"};
-    std::vector<std::string> linguagens = {"Ruby", "JavaScript", "Python", "C#", "C++", "Lua"};
-    std::vector<std::string> frameworks = {"Ruby on Rails", "React", "Django", "Laravel"};
+lsb_release -a
+No LSB modules are available.
+Distributor ID:	Gimme lovë
+Description:	Gimme lovë & cybersec
+Release:	4.07
+Codename:	gimmelovë
 
-    std::cout << "Habilidades: ";
-    for (const auto &var : variaveis) {
-        std::cout << var << ", ";
-    }
-    std::cout << "\n";
+cat /proc/version
+Linux version 5.19.0-46-generic (buildd@lcy02-amd64-025) (x86_64-linux-gnu-gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #47~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jun 21 15:35:31 UTC 2
 
-    std::cout << "Linguagens: ";
-    for (const auto &lang : linguagens) {
-        std::cout << lang << ", ";
-    }
-    std::cout << "\n";
-
-    std::cout << "Frameworks: ";
-    for (const auto &framework : frameworks) {
-        std::cout << framework << ", ";
-    }
-    std::cout << "\n";
-}
-
-int main() {
-    habilidades();
-    return 0;
-}
 ```
-![Python](https://camo.githubusercontent.com/50f253770757d61ca54c631063674f046b1d4f168c7d80186d8971b5bd15b1cc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d626c7565)
-![C](https://camo.githubusercontent.com/fa7457d99bf571d2d5197cea007068a78ecaff560eb35ad9e8c9f24db798ea65/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f632d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d63)
-![C++](https://camo.githubusercontent.com/fa7457d99bf571d2d5197cea007068a78ecaff560eb35ad9e8c9f24db798ea65/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f632d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d63)
-![Linux](https://camo.githubusercontent.com/8f44da7e49830e5f0c80020f8ea065b7fa37390c7a41f0a86b065c3b898d68c4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c696e75782d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e7578)
-![Shell](https://camo.githubusercontent.com/305ebcc01f86922816716c376805b6904350bf34002e7aecaceb5bfabe7af2de/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7368656c6c2d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d7368656c6c736372697074)
-![Power Shell](https://camo.githubusercontent.com/eac52ad3aca660bffde1bcd8cbb4e885c6d4b94d972ed0bec245b6354508ab92/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706f7765727368656c6c2d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d706f7765727368656c6c)
-![Git](https://camo.githubusercontent.com/c0b16dc2bde106dfb398366fde19de20fc858f75150f5be3a5b7b02277bb0e24/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6769742d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d676974)
-![Obsidian](https://camo.githubusercontent.com/3e36dcf7d721a90a1f8958cd261ce168244a72aca30ba85dede866344e3d5b73/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6f6273696469616e2d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d6f6273696469616e266c6f676f436f6c6f723d707572706c65)
-![><](https://camo.githubusercontent.com/2d1be096f451d5ee5a2c1dc061749dcf327000a576efc62f0f01f7267f2813f7/68747470733a2f2f6d65646961342e67697068792e636f6d2f6d656469612f76312e59326c6b505463354d4749334e6a4578596e6f3561476479616e7033623238784d6d353161473879646e683661335a6959575a7564477730646d773361326873634441354e435a6c634431324d563970626e526c636d35686246396e61575a66596e6c666157516d5933513963772f7666546e7a3251564a316970322f67697068792e676966)
