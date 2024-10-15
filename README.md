@@ -1,16 +1,25 @@
   
 ```
-uname -a
-Gimmelovë UBUNTU 5.19.0-45-generic #46~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jun 7 15:06:04 UTC 20 x86_64 x86_64 x86_64 GNU/Linux
-
-lsb_release -a
-No LSB modules are available.
-Distributor ID:	Gimme lovë
-Description:	Gimme lovë & cybersec
-Release:	4.07
-Codename:	gimmelovë
-
-cat /proc/version
-Linux version 5.19.0-46-generic (buildd@lcy02-amd64-025) (x86_64-linux-gnu-gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #47~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jun 21 15:35:31 UTC 2
-
+[ 0.598229] ret_from_fork+0x35/0x40
+[ 0.598229] Modules linked in:
+[ 0.598229] -[ end trace 23e2fda7cad73758 1
+[ 0.598229] RIP: 0010:_list_del_entry_valid.cold.1+0x34/0x4c
+[ 0.598229] Code: 84 4d bc e8 b8 bc ce ff Of Ob 48 c7 c7 d0 84 4d bc e8 aa bc
+ce ff Of 8b 48 89 f2 48 89 fe 48 c7 c7 90 84 4d bc e8 96 bc ce ff <Of> 0b 48 89
+fe 48 c7 c7 58 84 4d bc e8 85 bc ce ff Of Ob 90 90 90
+[ 0.598229] RSP: 0018:ffffb2fe819fbdc8 EFLAGS: 00010046
+[ 0.598229] RAX: 0000000000000054 RBX: 0000000000000002 RCX: ffffffffbc65b188
+[ 0.598229] RDX: 0000000000000000 RSI: 0000000000000092 RDI: 0000000000000046
+[ 0.598229] RBP: ffffb2fe819fbe78 R08: 00000000000003fb R09: ffff9fde400b8280
+[ 0.598229] R10: ffffffffbb88c2c0 R11: 2e6e6f6974787572 R12: 0000000000000000
+[ 0.598229] R13: ffff9fe076d96168 R14: 0000000000000001 R15: ffff9fe076d96160
+[ 0.598229] FS: 0000000000000000(0000) GS:ffff9fe077a88080(0000) knlGS:00000000
+[ 0.598229] CS: 0010 DS: 0000 ES: 0000 CRO: 0000000080050033
+[ 0.598229] CR2: 00007f424769f000 CR3: 0000000056c0a001 CR4: 00000000007606e0
+[ 0.598229] DRO: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[ 0.598229] PKRU: 55555554
+[ 0.598229] Kernel panic - not syncing: Fatal exception
+[ 0.598229] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[ 0.5982029] Kernel Offset: 0x3a400000 from 0xffffffff81000000 (relocation range: 0xffffffff80000000-0xffffffffbfffffff)
+[ 0.598229] ---[end Kernel panic - not syncing: Fatal exception ]---
 ```
